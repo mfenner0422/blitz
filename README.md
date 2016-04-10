@@ -7,9 +7,9 @@
 
 ## Getting Started
 
-1. Run `$ ruby -v` in the terminal. If that runs properly, proceed to step three
+1. Install [homebrew](http://brew.sh)
 
-2. Install xcode developer tools from the mac app store
+2. Run `$ brew install ruby`
 
 3. Install Jekyll by running `$ gem install jekyll`
 
