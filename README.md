@@ -4,7 +4,8 @@
 ## Team Members
 - [Taylor Poulos](//twp.io)
 - [Benjamin Alderoty](//balderoty.com)
-- [Avanti Dabholkar]
+- [Avanti Dabholkar](//www.avantidabholkar.com)
+- [Micah Fenner](//micahfenner.com)
 
 
 ## Getting Started
