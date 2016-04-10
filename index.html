@@ -1,7 +1,14 @@
 ---
 layout: default-layout
+title: Home
 ---
 
-<div class="home">
-  <h1 class="page-heading">Hello world</h1>
+<div class="package-container">
+{% for package in site.data.playbook %}
+  <div class="package">
+    <h1> {{ package.name }} </h1>
+    <p> {{ package.summary }} </p>
+    <p> {{ package.stars }} </p>
+  </div>
+{% endfor %}
 </div>

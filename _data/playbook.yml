@@ -1,0 +1,23 @@
+- name: Bob
+  summary: Lorem ipsum explanation of progression of this package and what is explained in detail
+  stars: 5
+
+- name: Double
+  summary: Lorem ipsum explanation of progression of this package and what is explained in detail
+  stars: 5
+
+- name: Dallas
+  summary: Lorem ipsum explanation of progression of this package and what is explained in detail
+  stars: 4
+
+- name: Baseball
+  summary: Lorem ipsum explanation of progression of this package and what is explained in detail
+  stars: 4
+
+- name: Whiplash
+  summary: Lorem ipsum explanation of progression of this package and what is explained in detail
+  stars: 3
+
+- name: Mountak
+  summary: Lorem ipsum explanation of progression of this package and what is explained in detail
+  stars: 0
