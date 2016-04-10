@@ -3,6 +3,7 @@
 
 ## Team Members
 - [Taylor Poulos](//twp.io)
+- [Micah Fenner] (//micahfenner.com)
 
 
 ## Getting Started
