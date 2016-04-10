@@ -1,11 +1,11 @@
 # Blitz
 
 
-# Team Members
+## Team Members
 - [Taylor Poulos](//twp.io)
 
 
-# Getting Started
+## Getting Started
 
 1. Run `$ ruby -v` in the terminal. If that runs properly, proceed to step three
 
@@ -27,10 +27,10 @@
 
 
 
-# Running Jekyll
+## Running Jekyll
 
 1. Using the terminal, navigate to the project repo
 
-2. Run `jekyll serve`
+2. Run `$ jekyll serve`
 
 3. Navigate to [http://localhost:4000/blitz/](http://localhost:4000/blitz/) in your web browser
