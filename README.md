@@ -3,6 +3,7 @@
 
 ## Team Members
 - [Taylor Poulos](//twp.io)
+- [Benjamin Alderoty](//balderoty.com)
 
 
 ## Getting Started
