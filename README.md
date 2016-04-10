@@ -3,6 +3,7 @@
 
 ## Team Members
 - [Taylor Poulos](//twp.io)
+- [Avanti Dabholkar]
 
 
 ## Getting Started
