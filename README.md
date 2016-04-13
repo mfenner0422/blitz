@@ -6,6 +6,7 @@
 - [Benjamin Alderoty](//balderoty.com)
 - [Avanti Dabholkar](//www.avantidabholkar.com)
 - [Micah Fenner](//micahfenner.com)
+- [Robyn Lambert](//robynlucile.com)
 
 
 ## Getting Started
