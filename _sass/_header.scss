@@ -6,6 +6,8 @@ header {
   right:0;
   height: 4.5 * $grid-unit;
 
+  z-index: 100000;
+
   .page-link {
     color: $color-white;
     display: inline-block;

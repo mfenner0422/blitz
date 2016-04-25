@@ -1,10 +1,23 @@
 
+.packages-title {
+  padding: $grid-unit;
+  color: $color-gray-4;
+}
+
+.packages-filter {
+  padding: $grid-unit * 2 $grid-unit;
+  background-color: $color-black-1;
+  margin: $grid-unit 0;
+  color: $color-gray-3;
+}
+
 .package-container {
   padding-left: 0.25 * $grid-unit;
 
   .package {
     background-color: white;
     display: inline-block;
+    vertical-align: top;
 
     width: 18 * $grid-unit;
     height: 10 * $grid-unit;
@@ -12,20 +25,98 @@
     margin: $grid-unit / 2;
     padding: $grid-unit;
 
-    &:hover {
+    .package-info {
+      position: absolute;
+      width: 18 * $grid-unit;
+      height: 10 * $grid-unit;
+
+      .package-name {
+        font-size: $base-title-big;
+        color: $color-black-1;
+        font-weight: $base-title-font-weight;
+      }
+
+      .package-summary {
+        color: $color-gray-3;
+        font-size: $base-text;
+      }
+
+      .package-complete, .package-days-left, .package-cta {
+        font-size: $base-text-small;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: $base-title-font-weight;
+      }
+
+      .package-complete, .package-cta {
+        color: $color-good;
+      }
+
+      .package-days-left {
+        color: $color-bad;
+      }
+
+      .package-due-date {
+        font-size: $base-text-small;
+        color: $color-gray-3;
+      }
+
+      .package-status, .package-cta {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+    &.is-locked {
+      background-color: $color-gray-1;
+
+      .package-cta {
+        color: $color-gray-3;
+      }
+    }
+
+    .package-details {
+      display:none;
+    }
+
+    &:hover:not(.is-locked) {
       margin-bottom: 19 * $grid-unit;
       outline: 4px solid $color-white;
 
       background-color: $color-bad;
       color: white;
 
+
+      .package-summary, .package-due-date, .package-status, .package-cta, .package-name, .package-complete, .package-days-left {
+        color: $color-white;
+      }
+
       .package-details {
         position: absolute;
-        height: 18 * $grid-unit;
-        width: 100%;
+        display: block;
+        height: 14 * $grid-unit;
         left: 0;
+        right: 0;
+        margin-top: 11.5 * $grid-unit;
 
         background-color: $color-black-1;
+
+        padding: 2 * $grid-unit 3 * $grid-unit;
+
+
+
+        .package-details-name {
+          font-size: $base-title-big;
+          color: $color-white;
+          font-weight: $base-title-font-weight;
+        }
+
+        .package-details-updated {
+          color: $color-gray-4;
+          text-transform: uppercase;
+          font-size: $base-text-small;
+          letter-spacing: 2px;
+        }
       }
 
       &::after {
@@ -38,7 +129,7 @@
         width: 40px;
         height: 40px;
         margin: -40px auto;
-        top: 10px;
+        top: 12 * $grid-unit;
         transform: rotate(45deg);
       }
     }
