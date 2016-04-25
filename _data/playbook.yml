@@ -1,7 +1,7 @@
 - name: Base Formations
   summary: The most common formations we will run plays out of this season. The foundations of our offense.
   locked: false
-  completion: 4
+  completion: 0
   updated: Last updated 11/23
 
 - name: Duo Right
@@ -17,19 +17,19 @@
 
 - name: Turn
   summary: Pass - This is a 6-Man play action protection that allows the FB to free release to routes, the remaining back will block the first man.
-  locked: false
+  locked: true
   completion: 0
   updated: Last updated 11/23
 
 - name: Counters/Trops
   summary: Run - These plays take advantage of an aggressive defensive front.
-  locked: false
+  locked: true
   completion: 0
   updated: Last updated 11/23
 
 - name: Quick Runs
   summary: A two back or one back 6-Man protection. The offensive line will block TURN protection. The remaining back will block the first man.
-  locked: false
+  locked: true
   completion: 0
   updated: Last updated 11/23
 
