@@ -10,8 +10,8 @@ $base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-s
 
 
 // Text Size
-$title-big: 28px;
-$title-small: 24px;
+$base-title-big: 28px;
+$base-title-small: 24px;
 
 $base-text: 14px;
 $base-text-big: 18px;
@@ -19,21 +19,23 @@ $base-text-small: 11px;
 $base-text-tiny: 9px;
 
 // Font Weight
-$base-font-weight: 400;
-$title-font-weight: 700;
+$base-text-font-weight: 400;
+$base-title-font-weight: 700;
 
 // Grid
 $base-line-height: 1.5;
-$grid-unit:     64px;
+$grid-unit: 16px;
 
 // Colors
-$gray-1: #f1f2f2;
-$gray-2: #e5e5e4;
-$gray-3: #aaaaaa;
-$gray-4: #727272;
+$color-gray-1: #f1f2f2;
+$color-gray-2: #e5e5e4;
+$color-gray-3: #aaaaaa;
+$color-gray-4: #727272;
 
 $color-black-1: #2a3c43;
 $color-black-2: #172328;
+
+$color-white: #fff;
 
 $color-good: #49b759;
 $color-bad: #ee4024;

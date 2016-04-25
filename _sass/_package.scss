@@ -1,9 +1,13 @@
 
+.package-container {
+  padding-left: 0.25 * $grid-unit;
+}
 
 .package {
   background-color: white;
-  padding: 40px;
-  margin: 10px;
+  width: 18 * $grid-unit;
+  height: 10 * $grid-unit;
   display: inline-block;
-  width: 300px;
+  margin: $grid-unit / 2;
+  padding: $grid-unit;
 }
