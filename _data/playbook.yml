@@ -1,24 +1,24 @@
 - name: Base Formations
   summary: The most common formations we will run plays out of this season. The foundations of our offense.
   locked: false
-  completion: 0
+  completion: 8
   updated: Last updated 11/23
 
 - name: Duo Right
   summary: Pass - A two back or one back 6-Man protection. Offensive line has four down and will. The remaining back has a “Dual” read from Mike to Sam.
-  completion: 0
+  completion: 6
   updated: Last updated 11/23
 
 - name: Tiger Left
   summary: Run - Run plays that attack only the A and B gaps on either the left or right side of the field.
   locked: false
-  completion: 0
+  completion: 2
   updated: Last updated 11/23
 
 - name: Turn
   summary: Pass - This is a 6-Man play action protection that allows the FB to free release to routes, the remaining back will block the first man.
-  locked: true
-  completion: 0
+  locked: false
+  completion: 1
   updated: Last updated 11/23
 
 - name: Counters/Trops

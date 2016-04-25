@@ -36,8 +36,17 @@ title: Home
     <div class="package-info">
       <div class="package-name"> {{ play.name }} </div>
       <div class="package-summary"> {{ play.summary }} </div>
-      <div class="package-cta"> {% if play.locked %} locked {% else %} begin {% endif %}</div>
+      {% if play.locked %}
+        <div class="package-cta"> locked </div>
+      {% elsif play.completion == 0 %}
+        <div class="package-cta"> begin </div>
+      {% endif %}
     </div>
+
+    {% if play.completion != 0 %}
+      <div class="package-completion package-completion-{{play.completion}}"></div>
+    {% endif %}
+
     <div class="package-details">
       <div class="package-details-name"> {{ play.name }} </div>
       <div class="package-details-updated"> {{ play.updated }} </div>
